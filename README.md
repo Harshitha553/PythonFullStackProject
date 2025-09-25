@@ -47,7 +47,7 @@ git clone <your-repo-url>
 # Install all required Python packages
 pip install -r requirements.txt
 
-### 3: Setup Supabase Databse
+### 3: Setup Supabase Database
 
 1.Create Supabase Project:
 
@@ -159,7 +159,7 @@ Optional snapshot image path
 1. **`src/db/.py`**:Database operations
     -Handles all CRUD operations with Supabase
 
-2. **`src/login.py`**:Business logic 
+2. **`src/logic.py`**:Business logic 
     -Task validation and processing.
 
 ## Troubleshooting
